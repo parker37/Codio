@@ -12,11 +12,11 @@ using namespace std;
 
 
 int main(int argc, char** argv) {
-	cout << "A: " << 'A' + 1 << " a: " << 'a' + 1 << endl;
+	
 	string message;
-
 	cout << "Enter the message you want to encrypt: \n";
 	getline(cin, message);
+
 	string encrMsg = "";
 
 	for(int i = 0; i < message.length(); i++) {
