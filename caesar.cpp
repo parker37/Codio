@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 	string encrMsg = "";
 
 	for(int i = 0; i < message.length(); i++) {
-		if(encrMsg.length() % 5 == 0 && encrMsg.length() != 0) {
+		if(encrMsg.length() % 6 == 5 && encrMsg.length() != 0) {
 			encrMsg += " ";
 		}
 		char l = char(message[i]) + atoi(argv[1]);
